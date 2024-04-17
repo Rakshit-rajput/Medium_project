@@ -1,0 +1,15 @@
+###signup route
+POST http://127.0.0.1:8787/api/v1/signup HTTP/1.1
+
+
+
+content-type: application/json
+{
+    "email":"rakhsit02@gmail.com",
+    
+    "password":"12345"
+
+}
+
+###test route
+GET http://127.0.0.1:8787/
